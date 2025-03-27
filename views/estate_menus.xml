@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <!-- Main root menu -->
+        <menuitem id="estate_menu_root" name="Real Estate">
+            <!-- First level menus -->
+           
+            <menuitem id="estate_first_level_menu" name="Advertisements">
+                <menuitem id="estate_property_menu_action" action="estate_property_action"/>
+            </menuitem>
+
+            <menuitem id="menu_property_type" name="Settings" sequence="100">
+                <menuitem id="estate_property_type_menu_action" action="estate_property_type_action"/>
+                <menuitem id="estate_property_tag_menu_action" action="estate_property_tag_action"/>
+            </menuitem>
+            
+        </menuitem>
+        
+</odoo>
